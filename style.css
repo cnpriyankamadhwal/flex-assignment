@@ -32,14 +32,15 @@ a{
 
 .navlist{
     display: flex;
-        justify-content: flex-end;
-        gap: 30px;
+    justify-content: flex-end;
+     gap: 35px;
 }
 
 .nav{
     display: flex;
         justify-content: flex-end;
         align-items: center;
+        gap: 22%;
 }
 
 /* home */
@@ -53,9 +54,20 @@ button{
 
 .home-intro{
     padding:100px 0;
+    width: 52%;
 }
 
 img{
     height: 200px;
     width: 230px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#home{
+    background-color: #f8f6f6;
 }
